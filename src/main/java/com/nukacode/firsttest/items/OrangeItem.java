@@ -11,9 +11,9 @@ public class OrangeItem extends Item {
 
     public OrangeItem () {
 
-        setCreativeTab(CreativeTabs.tabMaterials);
         setUnlocalizedName(Constants.MODID + "_" + name);
         setTextureName(Constants.MODID + ":" + name);
+        setCreativeTab(CreativeTabs.tabMaterials);
 
         GameRegistry.registerItem(this, name);
 
